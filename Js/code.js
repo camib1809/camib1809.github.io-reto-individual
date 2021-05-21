@@ -44,8 +44,7 @@ slider.addEventListener("input",function (){
     printnameGun();
     
     if(mySwitch.checked == true){
-        let A = 1000;
-        let x = price.textContent + A;
+        let x = price.textContent*0.20;
         price.textContent = x;
         
     }else{
@@ -59,8 +58,7 @@ slider.addEventListener("input",function (){
 mySwitch.addEventListener("input",function(){
 
     if(mySwitch.checked == true){
-    let A = 1000;
-    let x = price.textContent + A;
+    let x = price.textContent*0.25;
     price.textContent = x;
     
     }else{
